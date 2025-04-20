@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Folio Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Index - MyResume Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -15,22 +15,22 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Folio
-  * Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-  * Updated: Aug 08 2024 with Bootstrap v5.3.3
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -38,61 +38,40 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  <header id="header" class="header d-flex flex-column justify-content-center">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Folio</h1>
-      </a>
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Acceuil</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>A Propos</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Curuculum vitae</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Loisirs</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
 
-    </div>
   </header>
 
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+    <section id="hero" class="hero section light-background">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <img src="assets/img/hero-bg.jpg" alt="">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Konan Kramo<br></h2>
-        <p>I'm <span class="typed" data-typed-items="Data scientist, passionner par les nouvelles technologies ">Freelancer</span></p>
-        <div class="social-links">
-          <a href="#"><i class="bi bi-twitter-x"></i></a>
-          <a href="#"><i class="bi bi-facebook"></i></a>
-          <a href="#"><i class="bi bi-instagram"></i></a>
-          <a href="#"><i class="bi bi-linkedin"></i></a>
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2> Konan Kramo</h2>
+            <p>Je suis <span class="typed" data-typed-items="Data science, passionné de nouvelles technologies">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="#"><i class="bi bi-github"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -103,27 +82,40 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
+        <h2>A Propos</h2>
+        <p>Je suis actuellement élève-ingénieur à Polytech Clermont-Ferrand, en spécialité ingénierie mathématique et data science. Curieux, motivé et toujours prêt à apprendre, je m’intéresse particulièrement aux applications concrètes des mathématiques, à l’intelligence artificielle et à la data.
 
+          Ce site me permet de partager mon parcours, mes projets et tout ce qui me passionne dans le monde de l’ingénierie.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4 justify-content-between">
-          <div class="col-lg-4 profile-img align-self-start">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-7 content">
-            <h3>Im a ux /ui designer austin based who loves clean, simple &amp; unique design. i also enjoy crafting brand identities, icons, &amp; ilustration work.</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+          <div class="col-lg-8 content">
+            <h2>élève-ingénieur en Data science.</h2>
+            <p class="fst-italic py-3">
+              voici des elements me concernant :
             </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-            </ul>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Data de Naissance:</strong> <span>25 fevrier 2004</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Ville:</strong> <span>Clermont-Ferrand , FRANCE</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Diplôme:</strong> <span>élève ingenieur</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>fabriceemmanuel2@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              Je suis passionné par l’intelligence artificielle et la data science. J’aime apprendre de nouvelles choses et relever des défis. Je suis également très intéressé par les applications concrètes des mathématiques dans le monde réel.
           </div>
         </div>
 
@@ -131,196 +123,336 @@
 
     </section><!-- /About Section -->
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-emoji-smile"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Récommendations</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-journal-richtext"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projets</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-people"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Certifications</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Competences</h2>
+        <p>Voici un aperçu de mes compétences techniques et professionnelles, acquises au fil de mes expériences et de mes projets.</p>
+      </div><!-- End Section Title -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content text-center"></div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/c.png" alt="C" class="img-fluid mb-3">
+        <h4>C</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/python.png" alt="Python" class="img-fluid mb-3">
+        <h4>Python</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/r.png" alt="R" class="img-fluid mb-3">
+        <h4>R</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/sql.png" alt="SQL" class="img-fluid mb-3">
+        <h4>SQL</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/matlab.png" alt="Matlab" class="img-fluid mb-3">
+        <h4>Matlab</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/notebook.png" alt="Notebook" class="img-fluid mb-3">
+        <h4>Notebook</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/anaconda.png" alt="Anaconda" class="img-fluid mb-3">
+        <h4>Anaconda</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/github.png" alt="GitHub" class="img-fluid mb-3">
+        <h4>GitHub</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/git.png" alt="Git" class="img-fluid mb-3">
+        <h4>Git</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/visualstudio.png" alt="Visual Studio" class="img-fluid mb-3">
+        <h4>Visual Studio</h4>
+          </div>
+
+        </div>
+
+        <div class="row skills-content text-center mt-5">
+          <h3>Manipulation et Visualisation des Données</h3>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/pandas.png" alt="Pandas" class="img-fluid mb-3">
+        <h4>Pandas</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/numpy.png" alt="NumPy" class="img-fluid mb-3">
+        <h4>NumPy</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/matplotlib.png" alt="Matplotlib" class="img-fluid mb-3">
+        <h4>Matplotlib</h4>
+          </div>
+
+        </div>
+
+        <!-- Other Tools Section -->
+        <div class="row skills-content text-center mt-5">
+          <h3>Autres Outils</h3>
+
+          <!-- Add spaces for future tools -->
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Tool Placeholder" class="img-fluid mb-3">
+        <h4>Outil 1</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Tool Placeholder" class="img-fluid mb-3">
+        <h4>Outil 2</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Tool Placeholder" class="img-fluid mb-3">
+        <h4>Outil 3</h4>
+          </div>
+        </div>
+
+        <!-- Competences Metiers Section -->
+        <div class="row skills-content text-center mt-5">
+          <h3>Competences Metiers</h3>
+
+          <!-- Add spaces for future competences -->
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Competence Placeholder" class="img-fluid mb-3">
+        <h4>Competence 1</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Competence Placeholder" class="img-fluid mb-3">
+        <h4>Competence 2</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Competence Placeholder" class="img-fluid mb-3">
+        <h4>Competence 3</h4>
+          </div>
+        </div>
+
+        <!-- Soft Skills Section -->
+        <div class="row skills-content text-center mt-5">
+          <h3>Soft Skills</h3>
+
+          <div class="col-lg-4">
+        <h4>Autonomie</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <h4>Esprit d'équipe</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <h4>Curiosité</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <h4>Envie d'apprendre</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <h4>Vulgarisation</h4>
+          </div>
+        </div>
+
+        <div class="row skills-content text-center mt-5">
+          <h3>Machine Learning et Deep Learning</h3>
+
+          <!-- Add spaces for future skills -->
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Skill Placeholder" class="img-fluid mb-3">
+        <h4>Skill 1</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Skill Placeholder" class="img-fluid mb-3">
+        <h4>Skill 2</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Skill Placeholder" class="img-fluid mb-3">
+        <h4>Skill 3</h4>
+          </div>
+        </div>
+      </div>
+
+          <!-- Add spaces for future skills -->
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Skill Placeholder" class="img-fluid mb-3">
+        <h4>Skill 1</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Skill Placeholder" class="img-fluid mb-3">
+        <h4>Skill 2</h4>
+          </div>
+
+          <div class="col-lg-4">
+        <img src="assets/img/skills/placeholder.png" alt="Skill Placeholder" class="img-fluid mb-3">
+        <h4>Skill 3</h4>
+          </div>
+        </div>
+
+      </div>
+
+        </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Curriculum Vitae</h2>
+        <p>Bienvenue sur mon Curriculum Vitae. Découvrez mon parcours académique, mes expériences professionnelles et mes compétences qui reflètent mon engagement et ma passion pour l'ingénierie et la data science.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="row">
 
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-            <div>
-              <h4 class="title">Lorem Ipsum</h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Résumé</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Konan Kramo</h4>
+              <p><em>Élève-ingénieur en ingénierie mathématique et data science, passionné par l'intelligence artificielle et les applications concrètes des mathématiques. Curieux, motivé et doté d'un esprit d'équipe, je m'efforce d'apprendre et de relever des défis avec rigueur et créativité.</em></p>
+              <div class="text-center"></div>
+              <a href="assets/files/mon_cv.pdf" class="btn btn-primary" download>Télécharger mon CV</a>
             </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Ingénierie Mathématique et Data Science</h4>
+              <h5>2024 - 2027</h5>
+              <p><em>Institut National Polytechnique Clermont Auvergne - Polytech Clermont, France</em></p>
+              <p>Formation d'ingénieur spécialisée en mathématiques appliquées et data science, avec un focus sur les applications concrètes et l'intelligence artificielle.</p>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Classes Préparatoires aux Grandes Écoles (MPSI/MP)</h4>
+              <h5>2022 - 2024</h5>
+              <p><em>ESTEM, Casablanca, Maroc</em></p>
+              <p>Deux années de formation intensive en mathématiques, physique et sciences industrielles, préparant aux concours d'entrée aux grandes écoles d'ingénieurs.</p>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Baccalauréat Scientifique (Série C)</h4>
+              <h5>2022</h5>
+              <p><em>Lycée Houphouët-Boigny, Korhogo, Côte d'Ivoire</em></p>
+              <p>Baccalauréat scientifique avec option mathématiques et sciences physiques, obtenu avec la mention Assez Bien.</p>
+            </div><!-- End Resume Item -->
+
+            <h3 class="resume-title">Certifications</h3>
+            <div class="resume-item">
+              <h4>Certification 1</h4>
+              <h5>Année</h5>
+              <p><em>Institution</em></p>
+              <p>Description de la certification.</p>
+            </div><!-- End Certification Item -->
+
+            <div class="resume-item">
+              <h4>Certification 2</h4>
+              <h5>Année</h5>
+              <p><em>Institution</em></p>
+              <p>Description de la certification.</p>
+            </div><!-- End Certification Item -->
+
+            <div class="resume-item">
+              <h4>Certification 3</h4>
+              <h5>Année</h5>
+              <p><em>Institution</em></p>
+              <p>Description de la certification.</p>
+            </div><!-- End Certification Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Contributions Associatives</h3>
+            <div class="resume-item">
+              <h4>Président de l'IDP Ingénierie</h4>
+              <h5>2025 - Présent</h5>
+              <p><em>Association Entreprise de Polytech Clermont</em></p>
+              <ul>
+              <li>Leadership et coordination d’équipe : gestion, animation et motivation d’un groupe de membres autour d’objectifs communs.</li>
+              <li>Gestion de projet : planification, organisation et suivi d’événements ou d’initiatives associatives.</li>
+              <li>Communication et représentation : échanges avec les partenaires, prise de parole en public, rédaction de comptes rendus.</li>
+              <li>Sens de l’organisation et autonomie : gestion du temps, prise d’initiatives et résolution de problèmes.</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Responsable du compte Drive de l'association filière IMDS</h4>
+              <h5>2025 - Présent</h5>
+              <p><em>Ingénierie Mathématique et Data Science, Polytech Clermont</em></p>
+              <ul>
+              <li>Organisation et gestion de l'information : structuration, mise à jour et gestion d’un espace de ressources partagées pour toute la filière.</li>
+              <li>Esprit d’initiative et rigueur : création de systèmes de classement efficaces, veille sur la qualité et la pertinence des documents.</li>
+              <li>Communication interne : échanges réguliers avec les étudiants pour comprendre leurs besoins et répondre à leurs demandes.</li>
+              <li>Travail en autonomie et en collaboration : coordination avec les autres membres de l’association pour assurer la cohérence et l’accessibilité des contenus.</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
           </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-            <div>
-              <h4 class="title">Dolor Sitema</h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-            <div>
-              <h4 class="title">Sed ut perspiciatis</h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
-            <div>
-              <h4 class="title">Magni Dolores</h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
-            <div>
-              <h4 class="title">Nemo Enim</h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
-            <div>
-              <h4 class="title">Eiusmod Tempor</h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
 
         </div>
 
       </div>
 
-    </section><!-- /Services Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
+    </section><!-- /Resume Section -->
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
@@ -328,168 +460,101 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>"Le seul moyen de faire un excellent travail est d’aimer ce que vous faites." — Steve Jobs</p>
+        <p>Dans cette section, vous découvrirez les projets sur lesquels j’ai travaillé, illustrant ma passion pour la data science et les mathématiques appliquées. Chaque projet est une occasion de mettre en pratique mes compétences et de relever de nouveaux défis.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
+          </div>
+
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
+            <li data-filter=".filter-python">Python</li>
+            <li data-filter=".filter-pro">Pro</li>
+            <li data-filter=".filter-perso">Perso</li>
+            <li data-filter=".filter-scolaire">Scolaire</li>
+            <li data-filter=".filter-ml-data">ML/DATA</li>
+            <li data-filter=".filter-app">APP</li>
+            <li data-filter=".filter-autre">AUTRE</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-python">
+              <img src="assets/img/masonry-portfolio/python-project.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Python Project</h4>
+                <p>Un projet utilisant Python pour l'analyse de données.</p>
+                <a href="assets/img/masonry-portfolio/python-project.jpg" title="Python Project" data-gallery="portfolio-gallery-python" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pro">
+              <img src="assets/img/masonry-portfolio/pro-project.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pro Project</h4>
+                <p>Un projet professionnel réalisé en entreprise.</p>
+                <a href="assets/img/masonry-portfolio/pro-project.jpg" title="Pro Project" data-gallery="portfolio-gallery-pro" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-perso">
+              <img src="assets/img/masonry-portfolio/perso-project.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Perso Project</h4>
+                <p>Un projet personnel pour explorer de nouvelles idées.</p>
+                <a href="assets/img/masonry-portfolio/perso-project.jpg" title="Perso Project" data-gallery="portfolio-gallery-perso" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-scolaire">
+              <img src="assets/img/masonry-portfolio/scolaire-project.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Scolaire Project</h4>
+                <p>Un projet académique réalisé dans le cadre de mes études.</p>
+                <a href="assets/img/masonry-portfolio/scolaire-project.jpg" title="Scolaire Project" data-gallery="portfolio-gallery-scolaire" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ml-data">
+              <img src="assets/img/masonry-portfolio/ml-data-project.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ML/DATA Project</h4>
+                <p>Un projet en machine learning et data science.</p>
+                <a href="assets/img/masonry-portfolio/ml-data-project.jpg" title="ML/DATA Project" data-gallery="portfolio-gallery-ml-data" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+              <img src="assets/img/masonry-portfolio/app-project.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>APP Project</h4>
+                <p>Un projet de développement d'application.</p>
+                <a href="assets/img/masonry-portfolio/app-project.jpg" title="APP Project" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-autre">
+              <img src="assets/img/masonry-portfolio/autre-project.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Autre Project</h4>
+                <p>Un projet diversifié dans un domaine différent.</p>
+                <a href="assets/img/masonry-portfolio/autre-project.jpg" title="Autre Project" data-gallery="portfolio-gallery-autre" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
           </div><!-- End Portfolio Container -->
+        </div>
 
         </div>
 
@@ -497,82 +562,78 @@
 
     </section><!-- /Portfolio Section -->
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
+    <!-- Services Section -->
+    <section id="services" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Loisirs</h2>
+        <p>Voici quelques-unes de mes passions et activités favorites en dehors de mon parcours académique et professionnel. Ci-dessous, découvrez quelques activités illustrées par des images générées par MidJourney.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Free Plan</h3>
-              <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Voluptate id voluptas qui sed aperiam rerum</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Iure nihil dolores recusandae odit voluptatibus</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item item-cyan position-relative">
+          <div class="icon">
+            <i class="bi bi-laptop"></i>
+          </div>
+          <h3>Nouvelles technologies</h3>
+          <p>Exploration des dernières innovations technologiques et tendances dans le domaine de la tech.</p>
+        </div>
+          </div><!-- End Hobby Item -->
 
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <p class="popular">Popular</p>
-              <h3>Business Plan</h3>
-              <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                <li><i class="bi bi-check"></i> <span>Voluptate id voluptas qui sed aperiam rerum</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Iure nihil dolores recusandae odit voluptatibus</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item item-orange position-relative">
+          <div class="icon">
+            <i class="bi bi-tv"></i>
+          </div>
+          <h3>Séries et Mangas</h3>
+          <p>Passionné par les séries captivantes et les mangas inspirants.</p>
+        </div>
+          </div><!-- End Hobby Item -->
 
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="pricing-item">
-              <h3>Developer Plan</h3>
-              <p class="description">Ullam mollitia quasi nobis soluta in voluptatum et sint palora dex strater</p>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                <li><i class="bi bi-check"></i> <span>Voluptate id voluptas qui sed aperiam rerum</span></li>
-                <li><i class="bi bi-check"></i> <span>Iure nihil dolores recusandae odit voluptatibus</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item item-teal position-relative">
+          <div class="icon">
+            <i class="bi bi-music-note"></i>
+          </div>
+          <h3>Musiques</h3>
+          <p>Apprécie divers genres musicaux pour se détendre et s'inspirer.</p>
+        </div>
+          </div><!-- End Hobby Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item item-red position-relative">
+          <div class="icon">
+            <i class="bi bi-football"></i>
+          </div>
+          <h3>Football</h3>
+          <p>Amateur de football, que ce soit en tant que spectateur ou joueur.</p>
+        </div>
+          </div><!-- End Hobby Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item item-indigo position-relative">
+          <div class="icon">
+            <i class="bi bi-boxing-glove"></i>
+          </div>
+          <h3>Sports de combat</h3>
+          <p>Pratique et suit les sports de combat pour le dépassement de soi.</p>
+        </div>
+          </div><!-- End Hobby Item -->
 
         </div>
 
       </div>
 
-    </section><!-- /Pricing Section -->
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Testimonials Section Removed -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -580,76 +641,84 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>les services proposés</p>
+        <p>Je privilégie le contact par mail. Merci pour votre compréhension.</p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" data-aos="fade" data-aos-delay="100">
 
-        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
-          <div class="row gy-5">
+        <div class="row gy-4">
 
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>19 Rue André Theuriet Clermont-Ferrand</p>
-                </div>
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Ville</h3>
+                <p>Clermont-Ferrand, FRANCE</p>
               </div>
             </div><!-- End Info Item -->
 
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call<br></h3>
-                  <p>+33 6 69 43 11 87</p>
-                </div>
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email</h3>
+                <p>fabriceemmanuel2@gmail.com</p>
               </div>
             </div><!-- End Info Item -->
 
-            <div class="col-lg-4">
-              <div class="info-item d-flex align-items-center">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email</h3>
-                  <p>fabriceemmanuel2@gmail.com</p>
-                </div>
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-info-circle flex-shrink-0"></i>
+              <div>
+                <h3>Note</h3>
+                <p>Merci pour votre compréhension.</p>
               </div>
             </div><!-- End Info Item -->
-
           </div>
+
+          <div class="col-lg-8">
+            <img src="assets/img/clermont-ferrand.jpg" alt="Clermont-Ferrand" class="img-fluid" data-aos="fade-up" data-aos-delay="500">
+          </div>
+
         </div>
 
-        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
-          <div class="row gy-4">
+      </div>
 
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-            </div>
-
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-            </div>
-
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-            </div>
-
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-            </div>
-
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-
-              <button type="submit">Send Message</button>
-            </div>
+    </section>
 
           </div>
-        </form><!-- End Contact Form -->
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
 
       </div>
 
@@ -657,28 +726,26 @@
 
   </main>
 
-  <footer id="footer" class="footer light-background">
+  <footer id="footer" class="footer position-relative light-background">
     <div class="container">
-      <h3 class="sitename">Folio</h3>
-      <p>Pour me contacter sur les differents reseaux </p>
+      <h3 class="sitename">Konan Kramo</h3>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/share/16TcQWuVfQ/"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/fabrice.kramo?igsh=MWZicHpiOTMyaXU1OQ=="><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
-        <a href="https://www.linkedin.com/in/konan-fabrice-e-kramo-75375331a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/your-github-profile" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"><i class="bi bi-linkedin"></i></a>
       </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Folio</strong> <span>All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+    </div>
+    <div class="container">
+      <div class="copyright"></div>
+        <!-- Copyright information -->
+        <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
+      </div>
+      <div class="credits">
+        <!-- Attribution to BootstrapMade -->
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> and made by Konan Kramo
       </div>
     </div>
   </footer>
@@ -694,10 +761,12 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
