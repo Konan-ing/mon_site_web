@@ -3,7 +3,7 @@
     "nom": "Deep Learning TensorFlow",
     "description": "Analyse de données complexes.",
     "categorie": "filter-python filter-ml-data",
-    "image": "assets/img/masonry-portfolio/deep-learning.jpg",
+    "image": "assets/img/icons8-tensorflow-144.png",
     "apiUrl": "https://mon-projet-ia-polytech.azurewebsites.net/predict"
   }
 ]
