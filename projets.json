@@ -1,0 +1,9 @@
+[
+  {
+    "nom": "Deep Learning TensorFlow",
+    "description": "Analyse de données complexes.",
+    "categorie": "filter-python filter-ml-data",
+    "image": "assets/img/masonry-portfolio/deep-learning.jpg",
+    "apiUrl": "https://mon-projet-ia-polytech.azurewebsites.net/predict"
+  }
+]
