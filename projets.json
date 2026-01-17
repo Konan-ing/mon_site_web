@@ -1,9 +1,52 @@
 [
   {
-    "nom": "Deep Learning TensorFlow",
-    "description": "Analyse de données complexes.",
+    "nom": "Deep Learning avec TensorFlow",
+    "langage": "Python / TensorFlow",
+    "description": "Utilisation de réseaux de neurones pour la classification d'images.",
     "categorie": "filter-python filter-ml-data",
     "image": "assets/img/icons8-tensorflow-144.png",
-    "apiUrl": "https://mon-projet-ia-polytech.azurewebsites.net/predict"
+    "repoUrl": "https://github.com/tensorflow/tensorflow",
+    "action": {
+      "type": "test_api",
+      "label": "Entrez une valeur d'entrée (0 à 1) :",
+      "placeholder": "Ex: 0.85",
+      "bouton": "Lancer l'inférence",
+      "endpoint": "https://jsonplaceholder.typicode.com/posts"
+    }
+  },
+  {
+    "nom": "Moteur de Jeu en C++",
+    "langage": "C++ / SFML",
+    "description": "Développement d'un moteur 2D complet avec gestion de la physique.",
+    "categorie": "filter-ml-data",
+    "image": "assets/img/icons8-c++-144.png",
+    "repoUrl": "https://github.com/SFML/SFML",
+    "action": {
+      "type": "lien_externe",
+      "label": "Voir la démo (YouTube)",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    }
+  },
+  {
+    "nom": "Application de Gestion Java",
+    "langage": "Java / Spring Boot",
+    "description": "Système de gestion de base de données pour entreprise.",
+    "categorie": "filter-python",
+    "image": "assets/img/icons8-java-144.png",
+    "repoUrl": "https://github.com/spring-projects/spring-boot",
+    "demoUrl": "https://spring.io/projects/spring-boot"
+  },
+  {
+    "nom": "Analyse de Données avec R",
+    "langage": "R Studio",
+    "description": "Visualisation de données complexes et statistiques descriptives.",
+    "categorie": "filter-ml-data",
+    "image": "assets/img/icons8-r-project-96.png",
+    "repoUrl": "https://github.com/tidyverse/ggplot2",
+    "action": {
+      "type": "lien_externe",
+      "label": "Consulter le rapport",
+      "url": "https://ggplot2.tidyverse.org/"
+    }
   }
 ]
