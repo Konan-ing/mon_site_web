@@ -5,7 +5,7 @@
     "description": "Petit modèle de test déployé sur Streamlit pour démonstration.",
     "categorie": "filter-python filter-ml-data",
     "image": "assets/img/icons8-tensorflow-144.png",
-    "repoUrl": "https://github.com/konankramo", 
+    "repoUrl": "https://github.com/Konan-ing/DL", 
     "action": {
       "type": "lien_externe",
       "label": "Ouvrir la démo Streamlit",
