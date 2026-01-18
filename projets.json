@@ -1,5 +1,18 @@
 [
   {
+    "nom": "Mini Modèle TensorFlow (Streamlit)",
+    "langage": "Python / Streamlit",
+    "description": "Petit modèle de test déployé sur Streamlit pour démonstration.",
+    "categorie": "filter-python filter-ml-data",
+    "image": "assets/img/icons8-tensorflow-144.png",
+    "repoUrl": "https://github.com/konankramo", 
+    "action": {
+      "type": "lien_externe",
+      "label": "Ouvrir la démo Streamlit",
+      "url": "https://bdmtuidjot9cqjd37mbjej.streamlit.app/#mini-modele-tensor-flow-lite-demo-rapide"
+    }
+  },
+  {
     "nom": "Deep Learning avec TensorFlow",
     "langage": "Python / TensorFlow",
     "description": "Utilisation de réseaux de neurones pour la classification d'images.",
@@ -8,10 +21,13 @@
     "repoUrl": "https://github.com/tensorflow/tensorflow",
     "action": {
       "type": "test_api",
-      "label": "Entrez une valeur d'entrée (0 à 1) :",
+      "label": "Entrez une valeur d'entrée  :",
       "placeholder": "Ex: 0.85",
       "bouton": "Lancer l'inférence",
-      "endpoint": "https://jsonplaceholder.typicode.com/posts"
+      "endpoint": "https://monapp-v1.onrender.com/predict",
+      "payload": {
+        "input": 0.85
+      }
     }
   },
   {
